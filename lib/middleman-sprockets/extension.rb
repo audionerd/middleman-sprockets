@@ -189,7 +189,7 @@ module Middleman::Sprockets
       @digest.dup
     end
 
-    # In sprockets, this stripes the asset hash. We don't need that.
+    # In sprockets, this strips the asset hash. We don't need that.
     def path_fingerprint(path)
       nil
     end
